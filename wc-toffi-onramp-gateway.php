@@ -18,11 +18,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * WC_Toffi_Gateway plugin class.
+ * WC_Toffi_Onramp_Gateway_Init plugin class.
  *
- * @class WC_Toffi_Gateway
+ * @class WC_Toffi_Onramp_Gateway_Init
  */
-class WC_Toffi_Gateway {
+class WC_Toffi_Onramp_Gateway_Init {
 
 	/**
 	 * Plugin bootstrapping.
@@ -150,4 +150,4 @@ class WC_Toffi_Gateway {
 
 }
 
-WC_Toffi_Gateway::init();
+WC_Toffi_Onramp_Gateway_Init::init();
